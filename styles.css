@@ -438,3 +438,13 @@ path:hover {
         padding: 0.25rem;
     }
 }
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;  /* Stack frames vertically */
+    }
+
+    .frame {
+        flex: 1 1 auto;  /* Allow frames to grow in height */
+        width: 100%;  /* Make frames full-width */
+    }
+}
