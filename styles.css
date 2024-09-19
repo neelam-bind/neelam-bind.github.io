@@ -227,7 +227,7 @@ body {
 
 /* Style for the SVG element */
 svg {
-    width: 90%; /* Let the SVG take 100% of the container width */
+    width: 80%; /* Let the SVG take 100% of the container width */
     height: auto; /* Maintain aspect ratio */
     transform: scale(1.5); /* Scale the map by 2x */
     transform-origin: left; /* Scale from the center */
